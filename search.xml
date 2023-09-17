@@ -4,19 +4,27 @@
   
     
     <entry>
-      <title>Vue.md</title>
-      <link href="/2023/09/17/Vue/"/>
-      <url>/2023/09/17/Vue/</url>
+      <title>网络安全</title>
+      <link href="/2023/09/17/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+      <url>/2023/09/17/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="note default disabled"><p>一,网络安全所面临的威胁为那几类？从人角度，威胁网络安全的因素有那些?</p></div><blockquote><p>网络安全的因素包括：</p><ol><li>人为的无意失误。</li><li>人为的恶意攻击。一种是主动攻击，另一种是被动攻击。</li><li>网络软件的漏洞和 ”后门”。</li></ol></blockquote><div class="img-wrap"><div class="img-bg"><img class="img" src="https://img1.imgtp.com/2023/09/17/TzGrT0qJ.jpeg" alt="网络安全"/></div><span class="image-caption">网络安全</span></div><div class="note primary disabled"><p>二，网络攻击和防御分别包括那些内容</p></div><blockquote><p>网络攻击：网络扫描, 监听, 入侵, 后门, 隐身<br>网络防御：操作系统安全配置、加密技术、防火墙技术、入侵检测技术。</p></blockquote><div class="note success disabled"><p>分析TCP/IP协议，说明各层可能受到的威胁及防御方法</p></div>]]></content>
       
       
       <categories>
           
-          <category> 前端开发 </category>
+          <category> 网络安全 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> CND </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,8 +32,8 @@
     
     <entry>
       <title>git和github和node搭建</title>
-      <link href="/2023/09/17/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-      <url>/2023/09/17/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</url>
+      <link href="/2023/09/17/git%E5%92%8Cgithub%E5%92%8Cnode%E6%90%AD%E5%BB%BA/"/>
+      <url>/2023/09/17/git%E5%92%8Cgithub%E5%92%8Cnode%E6%90%AD%E5%BB%BA/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -46,32 +54,6 @@
             <tag> node </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>主题安装文档（一）</title>
-      <link href="/2023/09/15/Theme/"/>
-      <url>/2023/09/15/Theme/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2023/09/13/hello-world/"/>
-      <url>/2023/09/13/hello-world/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
       
     </entry>
     
