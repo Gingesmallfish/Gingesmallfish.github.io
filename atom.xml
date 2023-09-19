@@ -6,7 +6,7 @@
   <link href="https://www.gingesmallfush.top/atom.xml" rel="self"/>
   
   <link href="https://www.gingesmallfush.top/"/>
-  <updated>2023-09-19T08:23:45.908Z</updated>
+  <updated>2023-09-19T10:36:14.489Z</updated>
   <id>https://www.gingesmallfush.top/</id>
   
   <author>
@@ -17,12 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JAVA安装基础</title>
+    <title>JAVA下载和安装基础</title>
     <link href="https://www.gingesmallfush.top/posts/7d92f204.html"/>
     <id>https://www.gingesmallfush.top/posts/7d92f204.html</id>
     <published>2023-09-19T08:19:53.000Z</published>
-    <updated>2023-09-19T08:23:45.908Z</updated>
+    <updated>2023-09-19T10:36:14.489Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="1-JDK下载-点击可跳转下面步骤直接进入下载界面"><a href="#1-JDK下载-点击可跳转下面步骤直接进入下载界面" class="headerlink" title="1.JDK下载 (点击可跳转下面步骤直接进入下载界面)"></a><a href="https://www.oracle.com/java/technologies/downloads/">1.JDK下载</a> (点击可跳转下面步骤直接进入下载界面)</h2><h3 id="1-打开浏览器输入网址-https-www-oracle-com-index-html-进入-Oracle官网"><a href="#1-打开浏览器输入网址-https-www-oracle-com-index-html-进入-Oracle官网" class="headerlink" title="1. 打开浏览器输入网址  https://www.oracle.com/index.html , 进入 Oracle官网"></a>1. 打开浏览器输入网址  <a href="https://www.oracle.com/index.html">https://www.oracle.com/index.html</a> , 进入 <a href="https://www.oracle.com/">Oracle官网</a></h3>   <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/19/s7x1wu.png"/></div></div><h3 id="2-在官网首页菜单单栏-点击Products-在Software中找到Java-点击该选项"><a href="#2-在官网首页菜单单栏-点击Products-在Software中找到Java-点击该选项" class="headerlink" title="2. 在官网首页菜单单栏, 点击Products, 在Software中找到Java, 点击该选项"></a>2. 在官网首页菜单单栏, 点击Products, 在Software中找到Java, 点击该选项</h3>   <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/19/sauv7b.png"/></div></div><h3 id="3-会进入如下界面"><a href="#3-会进入如下界面" class="headerlink" title="3. 会进入如下界面"></a>3. 会进入如下界面</h3>   <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/19/sby8r8.png"/></div></div><h3 id="4-在界面中往下滑-可以找到各种版本的JDK-选择自己需要的版本进行下载即可-在这里本人选择JDK8-x64位的"><a href="#4-在界面中往下滑-可以找到各种版本的JDK-选择自己需要的版本进行下载即可-在这里本人选择JDK8-x64位的" class="headerlink" title="4. 在界面中往下滑, 可以找到各种版本的JDK, 选择自己需要的版本进行下载即可, 在这里本人选择JDK8, x64位的"></a>4. 在界面中往下滑, 可以找到各种版本的JDK, 选择自己需要的版本进行下载即可, 在这里本人选择JDK8, x64位的</h3>   <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/19/su1v1z.jpg"/></div></div><h3 id="5-假如不确定电脑类型-可按-输入msinfo32-回车确定后即可产看电脑配置信息"><a href="#5-假如不确定电脑类型-可按-输入msinfo32-回车确定后即可产看电脑配置信息" class="headerlink" title="5. 假如不确定电脑类型, 可按 ,输入msinfo32, 回车确定后即可产看电脑配置信息"></a>5. 假如不确定电脑类型, 可按<span class='p red'>win+r</span> ,输入msinfo32, 回车确定后即可产看电脑配置信息</h3>   <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picdl.sunbangyan.cn/2023/09/19/tw6x3s.png"/></div></div><h3 id="6-确定好之后选择对应的exe文件格式-点击进行下载-点击后会弹出一个通知-同意接受-点击安装-未登录的用户可能会弹出登录界面-假如没有Oracle账号创建账号进行登录后即可下载安装"><a href="#6-确定好之后选择对应的exe文件格式-点击进行下载-点击后会弹出一个通知-同意接受-点击安装-未登录的用户可能会弹出登录界面-假如没有Oracle账号创建账号进行登录后即可下载安装" class="headerlink" title="6. 确定好之后选择对应的exe文件格式, 点击进行下载, 点击后会弹出一个通知, 同意接受, 点击安装, 未登录的用户可能会弹出登录界面, 假如没有Oracle账号创建账号进行登录后即可下载安装"></a>6. 确定好之后选择对应的exe文件格式, 点击进行下载, 点击后会弹出一个通知, 同意接受, 点击安装, 未登录的用户可能会弹出登录界面, 假如没有Oracle账号创建账号进行登录后即可下载安装</h3>   <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picdl.sunbangyan.cn/2023/09/19/u0by5c.png"/></div></div><h2 id="2-JDK安装"><a href="#2-JDK安装" class="headerlink" title="2.JDK安装"></a>2.JDK安装</h2><ul><li>下载完JDK到本地后, 找到该文件, 双击运行JDK安装程序  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picdm.sunbangyan.cn/2023/09/19/u3ltph.png"/></div></div></li><li>等一会, 进入JDK 安装界面, 点击下一步  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picdm.sunbangyan.cn/2023/09/19/u4sgsr.png"/></div></div></li><li>可以直接默认目录, 点击下一步。 也可以自定义路径, 先创建一个文件夹名为<strong>Java</strong>, 再在该文件夹下创建一个文件夹为<strong>JDK</strong>安装目录, 同时创建一个文件夹为 JRE 安装目录😊  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/19/u80851.png"/></div></div>  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picdm.sunbangyan.cn/2023/09/19/u804o7.png"/></div></div></li><li>然后回到JDK安装界面, 更改安装路径, 为上述所创建<strong>JDk</strong>路径, 点击下一不（<strong>这里由于第一项开发工具中已经自带了 JRE，则第三项的公共 JRE 可以取消独立安装，上述创建的 JRE 文件夹也不需要了</strong>）。无其他需求，取消安装 JRE 即可  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/19/u80851.png"/></div></div>  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://picdm.sunbangyan.cn/2023/09/19/ucrpn4.png"/></div></div></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-JDK下载-点击可跳转下面步骤直接进入下载界面&quot;&gt;&lt;a href=&quot;#1-JDK下载-点击可跳转下面步骤直接进入下载界面&quot; class=&quot;headerlink&quot; title=&quot;1.JDK下载 (点击可跳转下面步骤直接进入下载界面)&quot;&gt;&lt;/a&gt;&lt;a href=&quot;</summary>
+      
     
     
     
@@ -30,6 +37,10 @@
     
     
     <category term="JAVA" scheme="https://www.gingesmallfush.top/tags/JAVA/"/>
+    
+    <category term="IDEA" scheme="https://www.gingesmallfush.top/tags/IDEA/"/>
+    
+    <category term="开发环境" scheme="https://www.gingesmallfush.top/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
     
   </entry>
   
@@ -153,7 +164,7 @@
     <link href="https://www.gingesmallfush.top/posts/5b66c809.html"/>
     <id>https://www.gingesmallfush.top/posts/5b66c809.html</id>
     <published>2023-09-17T01:42:10.000Z</published>
-    <updated>2023-09-18T10:09:41.308Z</updated>
+    <updated>2023-09-19T08:50:17.143Z</updated>
     
     
     <summary type="html">安装教程</summary>
