@@ -6,7 +6,7 @@
   <link href="https://www.gingesmallfush.top/atom.xml" rel="self"/>
   
   <link href="https://www.gingesmallfush.top/"/>
-  <updated>2023-09-22T12:10:07.118Z</updated>
+  <updated>2023-09-24T07:11:50.650Z</updated>
   <id>https://www.gingesmallfush.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java基础语法</title>
+    <link href="https://www.gingesmallfush.top/posts/1c8c8299.html"/>
+    <id>https://www.gingesmallfush.top/posts/1c8c8299.html</id>
+    <published>2023-09-24T06:33:53.000Z</published>
+    <updated>2023-09-24T07:11:50.650Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Java-基础语法"><a href="#Java-基础语法" class="headerlink" title="Java 基础语法"></a>Java 基础语法</h2><p>一个 <strong>Java</strong> 程序可以认为是一系列对象的集合, 而这些对象通过调用彼此的方法来协同工作。 下面简要介绍下类, 对象, 方法和实列变量的概念</p><ul><li><strong>对象</strong>：对象是类的一个实列, 有状态和行为。例如, 一条狗是一个对象, 它的状态有: 颜色, 名字, 品种; 行为有: 要尾巴, 叫吃等</li><li><strong>类</strong>: 类是一个模板, 它描述一类对象的行为和状态.</li><li><strong>方法</strong>：方法就是行为, 一个类可以有很多方法。逻辑运算, 数据修改以及所有动作都是在方法中完成的。</li><li><strong>实例变量</strong> : 每个对象都有独特的实例变量, 对象的状态有这些实例变量的之决定的.</li></ul><h2 id="第一个Java程序"><a href="#第一个Java程序" class="headerlink" title="第一个Java程序"></a>第一个Java程序</h2><p>下面看一个简单<strong>Java</strong>程序,他将输出字符 Hell World</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span>&#123;</span><br><span class="line">    <span class="comment">/*</span></span><br><span class="line"><span class="comment">     * 第一个Java程序</span></span><br><span class="line"><span class="comment">     * 他将输出字符串 hello world</span></span><br><span class="line"><span class="comment">     * */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello world&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/09/24/otrrp3.jpg"/></div></div><p>下面将逐步介绍如何保存, 编辑以及运行这个程序:</p><ul><li>打开代码编辑器, 把上面的代码添加进去;</li><li>包文件名保存为: <strong>HelloWorld.java</strong>;</li><li>打开cmd命令窗口, 进去目标文件所在位置, <strong>假设是C盘</strong></li><li>在命令行窗口输出<strong>javac HelloWorld.java</strong>按下回车键编译代码。如果代码没有错误, <strong>cmd</strong> 命令提示符进入下一行(假设环境变量都没设置好了)</li><li>再键输入<strong>java HelloWorld</strong> 按下回车键就可以运行程序了</li></ul><div class="note default simple"><p>$ javac HelloWorld.java<br>$ java HelloWorld<br>Hello World</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Java-基础语法&quot;&gt;&lt;a href=&quot;#Java-基础语法&quot; class=&quot;headerlink&quot; title=&quot;Java 基础语法&quot;&gt;&lt;/a&gt;Java 基础语法&lt;/h2&gt;&lt;p&gt;一个 &lt;strong&gt;Java&lt;/strong&gt; 程序可以认为是一系列对象的集合, </summary>
+      
+    
+    
+    
+    <category term="全栈开发" scheme="https://www.gingesmallfush.top/categories/%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Java基础语法" scheme="https://www.gingesmallfush.top/tags/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>对象和类</title>
