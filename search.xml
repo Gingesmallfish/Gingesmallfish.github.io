@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Promise中的then和catch有什么区别</title>
+      <link href="/posts/e76e1dc9.html"/>
+      <url>/posts/e76e1dc9.html</url>
+      
+        <content type="html"><![CDATA[<p>首先我们先要区分几个概念, 第一, reject是采用抛出异常, catch是用来处理异常的, 然后then是用来处理成功的, 第二: reject是<strong>Promise</strong>的方法，而是then的<br>catch是Promise实例的方法<strong>Promise.prototype.then 和 Promise.prototype.catch。</strong></p><ol><li>主要区别就是, 如果在then的第一个函数里刨出了异常, 和后面的catch能捕获到, 而是then的第二个函数捕获不到<br>并发请求：</li></ol><p>并发请求，就是同时进行多个请求，并统一处理返回值。类似promise.all。</p><p>在下面例子中，我们使用axios.all，对data.json/city.json同时进行请求，<br>使用axios.spread，对返回的结果分别进行处理。代码如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 并发请求</span></span><br><span class="line">axios.<span class="title function_">all</span>([axios.<span class="title function_">get</span>(<span class="string">&#x27;data.json&#x27;</span>), axios.<span class="title function_">get</span>(<span class="string">&#x27;city.json&#x27;</span>)]).<span class="title function_">then</span>(</span><br><span class="line">  axios.<span class="title function_">spread</span>(<span class="function">(<span class="params">datedata, cityRes</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(datedata, cityRes)</span><br><span class="line">    &#125;)  </span><br><span class="line">)</span><br></pre></td></tr></table></figure><br>注意：axios.all的参数是请求函数的数组，<br>在对应的回调then中，调用axios.spead对返回值进行处理，即可。</p><p>并发请求的应用场景：<br>需要同时进行多个请求，并且需要同时处理接口调用的返回值的时候，我们可以使用并发请求。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 全栈开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> then </tag>
+            
+            <tag> catch </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java基本数据类型</title>
       <link href="/posts/7038c214.html"/>
       <url>/posts/7038c214.html</url>
