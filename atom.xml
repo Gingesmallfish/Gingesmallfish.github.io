@@ -6,7 +6,7 @@
   <link href="https://www.gingesmallfush.top/atom.xml" rel="self"/>
   
   <link href="https://www.gingesmallfush.top/"/>
-  <updated>2023-10-20T13:43:39.659Z</updated>
+  <updated>2023-10-20T14:07:28.772Z</updated>
   <id>https://www.gingesmallfush.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>几款非常优秀且常用的代码编辑器</title>
+    <title>2023几款非常优秀且常用的代码编辑器</title>
     <link href="https://www.gingesmallfush.top/posts/dc89d8db.html"/>
     <id>https://www.gingesmallfush.top/posts/dc89d8db.html</id>
     <published>2023-10-20T12:15:45.000Z</published>
-    <updated>2023-10-20T13:43:39.659Z</updated>
+    <updated>2023-10-20T14:07:28.772Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2023年几款非常优秀且常用的代码编辑器"><a href="#2023年几款非常优秀且常用的代码编辑器" class="headerlink" title="2023年几款非常优秀且常用的代码编辑器"></a>2023年几款非常优秀且常用的代码编辑器</h1><p>对于软件开发人员, 代码编辑器好用与否直接影响到了开发效率, 软件开发，基本上都是集成开发环境<strong>IDE</strong><br>工具, 且自带编辑器, 但<strong>IDE</strong>自带编辑器多多少少存在一些不足, 本文将介绍几款非常优秀且常用的代码编辑器.</p><ul><li>VS Code</li><li>Sublime Text</li><li>WebStorm</li></ul><h2 id="VS-Code"><a href="#VS-Code" class="headerlink" title="VS Code"></a>VS Code</h2><p>网址: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/10/20/aa2d6f8ffec640bcd6c250103f3ae9ac.webp"/></div></div><p>1.简介<br>VS Code 全称 Visual Studio Code，是一款免费开源的现代化轻量级代码编辑器，支持几乎所有主流的开发语言的<strong>语法高亮、智能代码补全、自动<br>保存、语法检查、自动格式化</strong>等特性，支持插件扩展，并针对网页开发和云端应用开发做了优化。</p><p>2.特点</p><ul><li>智能代码补全</li><li>简化的调试</li><li>快速, 强大的编辑</li><li>代码导航和重构</li><li>内置的<strong>Git</strong>命令</li><li>插件市场</li><li>兼容 Windows、OS X 和 Linux</li><li>可扩展和定制的插件</li><li>支持主题</li><li>…….</li></ul><h2 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a>Sublime Text</h2><p>网址：<a href="https://www.sublimetext.com/">https://www.sublimetext.com/</a></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://picss.sunbangyan.cn/2023/10/20/bd8d2c21ae9765fc231e5a045193899a.webp"/></div></div><p>1.简介<br>Sublime Text 是一款跨平台代码编辑器，具有简洁界面、高效的工作方式，并且支持插件扩展，可扩展性极强。</p><p>它是一个跨平台的编辑器，同时支持 <strong>Windows、Mac 和 Linux</strong> 平台，并且是开源的。</p><p>在不同操作系统下有不同的操作的习惯, 包括界面布局,快捷等, 目前大部分的关于<strong>Sublime Text</strong><br>文章的作者都是在某个操作系统下完成文章的书写工作, 这导致使用不同的操作系统的开发着看到的相同的文章, 有于操作系统差异, 无法正常操作情况</p><p>2.特点</p><ul><li>自动完成</li><li>多列编辑</li><li>代码注释功能</li><li>行操作</li><li>转到定义</li></ul><h2 id="WebStorm"><a href="#WebStorm" class="headerlink" title="WebStorm"></a>WebStorm</h2><p>WebStorm 是由<strong>JetBrains</strong>公司设计的一款<strong>JavaScript</strong>开发工具, 它支持 <strong>HTML、CSS、JavaScript</strong> 和<br><strong>TypeScript</strong> 等语言, 并且提供了对<strong>AngularJS</strong>、<strong>ReactJS</strong>、<strong>VueJS</strong> 等框架和工具的<br>支持, 同时支持<strong>Node.js</strong>、<strong>npm</strong>、<strong>webpack</strong> 等工具, 还支持<strong>Git</strong>版本控制</p><p>“也是最强大的<strong>HTML</strong>”, “最智能的<strong>JavaScript IDE</strong>”等。与<strong>IntelliJ IDEA</strong>同源，继承了IntelliJ IDEA强大的JS部分的功能。</p><p>2.特点</p><ul><li>智能的代码补全</li><li>代码格式化</li><li>代码重构</li><li>代码检查和快速修复</li><li>代码检查和快速修复</li><li>代码结构浏览</li><li>包裹或者去掉外围代码</li></ul><h2 id="还有其他几款编辑器"><a href="#还有其他几款编辑器" class="headerlink" title="还有其他几款编辑器"></a>还有其他几款编辑器</h2><ul><li>source lnsight</li><li>Vim</li><li>DW</li><li>Atom</li><li>Notepad++</li><li>HBuilder x</li></ul><p>我做作为一个前端开发的一个博主我真的极力推荐使用<strong>VS Code</strong>和<strong>WebStorm</strong>, 因为这两个编辑器都支持插件, 而且插件都很多, 而且插件都很好用,</p><p>在这里, 只介绍 <strong>VS Code</strong> 和 <strong>WebStorm</strong> 和 <strong>Sublime Text</strong>三款编辑器 其他自行在网上了解<br>同样的<strong>VS Code</strong>也可以写后端代码，只需要下载相应的插件既可以，和配置相应的环境即可</p>]]></content>
     
