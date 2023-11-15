@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>mysql在安装时为什么没有developer default这个选项？</title>
+      <link href="/posts/undefined.html"/>
+      <url>/posts/undefined.html</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><p>首先目前<strong>MySQL</strong>存在两个版本,一个是商业版, 一个是社区版，商业版目前有Oracle公司开发，增加了很多功能如企业级监控，备份工具，加密和宙计等<br>企业级特性，而社区版由开源进行开发和各种测试。</p><p>当前国内公司使用的大多数是社区版，毕竟好用有免费的东西谁不喜欢呢😀, 目前能从<strong>MySQL</strong>官网<br>下载的都是<strong>GA</strong>版，下载的就是生产版本，而不是稳定的开发者版本</p><p>社区版内包含了许多<strong>MySQL</strong>组件，<strong>如MySQLServer，MySQLClient，Client插件</strong>, 开发工具，<br>DeBug测试集和其他一些库文件，这些都被集成在统一的安装包中，在安装<strong>MySQL</strong>的过程中，会提示<br><strong>安装类型</strong></p><ul><li><strong>server only(只安装mysql server)</strong></li><li><strong>client only(只安装mysql client)</strong></li><li><strong>full (全部安装)</strong></li><li><strong>custome (自定义选择mysql组件)</strong></li></ul><p>所以如果需要安装开发时用到的一些组件，选择<strong>custome</strong>, 自定义选择如 <strong>development library, test unit 等组件</strong>,<br>省事点的话直接选择<strong>full</strong>,安装全部组件。如果是生产环境，只需要安装<strong>server</strong>和<strong>client</strong>即可</p><p><strong>希望这边文章对大家有帮助😁😁😁😁😁😁😁😁😁😁😁😁✌️</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+            <tag> 安装 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2023几款非常优秀且常用的代码编辑器</title>
       <link href="/posts/dc89d8db.html"/>
       <url>/posts/dc89d8db.html</url>
