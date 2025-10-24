@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>css 基础 | 极客笔记</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/Knowledge.png">
+    <meta name="description" content="CSS 基础">
+    
+    <link rel="preload" href="/assets/css/0.styles.37f12cde.css" as="style"><link rel="preload" href="/assets/js/app.8d306f42.js" as="script"><link rel="preload" href="/assets/js/2.29b47fec.js" as="script"><link rel="preload" href="/assets/js/1.82de6389.js" as="script"><link rel="preload" href="/assets/js/32.d7c440a8.js" as="script"><link rel="prefetch" href="/assets/js/10.b5cb8787.js"><link rel="prefetch" href="/assets/js/11.1d859628.js"><link rel="prefetch" href="/assets/js/12.4fdfe2a9.js"><link rel="prefetch" href="/assets/js/13.8f0a27c4.js"><link rel="prefetch" href="/assets/js/14.97c98655.js"><link rel="prefetch" href="/assets/js/15.766f1677.js"><link rel="prefetch" href="/assets/js/16.78af0563.js"><link rel="prefetch" href="/assets/js/17.15fd7950.js"><link rel="prefetch" href="/assets/js/18.8cfd0541.js"><link rel="prefetch" href="/assets/js/19.eb17a18a.js"><link rel="prefetch" href="/assets/js/20.69cdcd42.js"><link rel="prefetch" href="/assets/js/21.f97621b9.js"><link rel="prefetch" href="/assets/js/22.97abce8c.js"><link rel="prefetch" href="/assets/js/23.504813d5.js"><link rel="prefetch" href="/assets/js/24.241dc13b.js"><link rel="prefetch" href="/assets/js/25.0f34d85b.js"><link rel="prefetch" href="/assets/js/26.416edb34.js"><link rel="prefetch" href="/assets/js/27.746f820f.js"><link rel="prefetch" href="/assets/js/28.9495ebf0.js"><link rel="prefetch" href="/assets/js/29.cf6b63cf.js"><link rel="prefetch" href="/assets/js/3.b7d0a32d.js"><link rel="prefetch" href="/assets/js/30.b3b05cd4.js"><link rel="prefetch" href="/assets/js/31.23f2f925.js"><link rel="prefetch" href="/assets/js/33.802c500d.js"><link rel="prefetch" href="/assets/js/4.da50b640.js"><link rel="prefetch" href="/assets/js/5.93f9c79a.js"><link rel="prefetch" href="/assets/js/6.3290a916.js"><link rel="prefetch" href="/assets/js/7.e6c65225.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.48a0b1d7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.37f12cde.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">极客笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/note/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/zh/note/css/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/zh/note/javascript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/note/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/note/vue/" class="nav-link">
+  框架学习
+</a></li></ul></div></div><div class="nav-item"><a href="/zh/note/project/" class="nav-link">
+  项目
+</a></div><div class="nav-item"><a href="/zh/note/deploy/" class="nav-link">
+  部署
+</a></div><div class="nav-item"><a href="https://github.com/Gingesmallfish" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于本站" class="dropdown-title"><span class="title">关于本站</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于本站" class="mobile-dropdown-title"><span class="title">关于本站</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/about/" class="nav-link">
+  个人主页
+</a></li><li class="dropdown-item"><!----> <a href="/zh/about/contact.html" class="nav-link">
+  联系作者
+</a></li><li class="dropdown-item"><!----> <a href="/zh/about/links.html" class="nav-link">
+  友情链接
+</a></li><li class="dropdown-item"><!----> <a href="/zh/about/working.html" class="nav-link">
+  工作装备
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/note/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/zh/note/css/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/zh/note/javascript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/note/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/note/vue/" class="nav-link">
+  框架学习
+</a></li></ul></div></div><div class="nav-item"><a href="/zh/note/project/" class="nav-link">
+  项目
+</a></div><div class="nav-item"><a href="/zh/note/deploy/" class="nav-link">
+  部署
+</a></div><div class="nav-item"><a href="https://github.com/Gingesmallfish" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于本站" class="dropdown-title"><span class="title">关于本站</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于本站" class="mobile-dropdown-title"><span class="title">关于本站</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/about/" class="nav-link">
+  个人主页
+</a></li><li class="dropdown-item"><!----> <a href="/zh/about/contact.html" class="nav-link">
+  联系作者
+</a></li><li class="dropdown-item"><!----> <a href="/zh/about/links.html" class="nav-link">
+  友情链接
+</a></li><li class="dropdown-item"><!----> <a href="/zh/about/working.html" class="nav-link">
+  工作装备
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>css 基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh/note/css/#一、css3-简介" class="sidebar-link">一、CSS3 简介</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/zh/note/css/#二、css3-核心特性及使用" class="sidebar-link">二、CSS3 核心特性及使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/note/css/#_2-1-选择器增强" class="sidebar-link">2.1 选择器增强</a></li><li class="sidebar-sub-header"><a href="/zh/note/css/#_2-2-边框与圆角优化" class="sidebar-link">2.2 边框与圆角优化</a></li><li class="sidebar-sub-header"><a href="/zh/note/css/#_2-3-背景样式增强" class="sidebar-link">2.3 背景样式增强</a></li><li class="sidebar-sub-header"><a href="/zh/note/css/#_2-4-文本样式升级" class="sidebar-link">2.4 文本样式升级</a></li><li class="sidebar-sub-header"><a href="/zh/note/css/#_2-5-动画与过渡" class="sidebar-link">2.5 动画与过渡</a></li><li class="sidebar-sub-header"><a href="/zh/note/css/#_2-6-弹性盒模型-flexbox" class="sidebar-link">2.6 弹性盒模型（Flexbox）</a></li></ul></li><li><a href="/zh/note/css/#三、css3-兼容性处理" class="sidebar-link">三、CSS3 兼容性处理</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/zh/note/css/#四、css3-实际应用场景总结" class="sidebar-link">四、CSS3 实际应用场景总结</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/zh/note/css/#五、css3-进阶" class="sidebar-link">五、CSS3 进阶</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/note/css/#上面学完了都是基础-后面我会跟新css进阶和高级的一些用法-比如" class="sidebar-link">上面学完了都是基础，后面我会跟新css进阶和高级的一些用法，比如</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css3-知识与使用指南"><a href="#css3-知识与使用指南" class="header-anchor">#</a> CSS3 知识与使用指南</h1> <div class="particle-container" data-v-5151d858><canvas class="particle-canvas" data-v-5151d858></canvas></div> <h2 id="一、css3-简介"><a href="#一、css3-简介" class="header-anchor">#</a> 一、CSS3 简介</h2> <p>CSS3 是 Cascading Style Sheets（层叠样式表）的第三个版本，作为前端开发的核心技术之一，它在 CSS2
+的基础上新增了大量实用特性，不仅简化了样式编写流程，还极大地提升了页面的视觉效果和交互体验。相比传统 CSS，CSS3 具有**模块化
+**（按功能拆分模块，如选择器、边框、动画等）、<strong>兼容性逐步完善</strong>（主流浏览器已全面支持核心特性）、<strong>减少对 JS 依赖</strong>
+（如动画、过渡效果可直接通过 CSS 实现）等优势，目前已成为构建现代网页界面的必备技术。</p> <h2 id="二、css3-核心特性及使用"><a href="#二、css3-核心特性及使用" class="header-anchor">#</a> 二、CSS3 核心特性及使用</h2> <h3 id="_2-1-选择器增强"><a href="#_2-1-选择器增强" class="header-anchor">#</a> 2.1 选择器增强</h3> <p>CSS3 扩展了选择器种类，无需依赖 HTML 结构或类名，即可更精准地选中元素，减少冗余代码。</p> <table><thead><tr><th>选择器类型</th> <th>语法示例</th> <th>作用说明</th> <th>应用场景</th></tr></thead> <tbody><tr><td>属性选择器</td> <td><code>input[type=&quot;text&quot;]</code></td> <td>选中 <code>type</code> 属性值为 <code>text</code> 的 <code>input</code> 元素</td> <td>表单元素样式定制</td></tr> <tr><td>结构伪类选择器</td> <td><code>ul li:nth-child(2n)</code></td> <td>选中 <code>ul</code> 下索引为偶数的 <code>li</code> 元素（从 1 开始）</td> <td>列表隔行变色（表格也适用）</td></tr> <tr><td>否定伪类选择器</td> <td><code>div:not(.box)</code></td> <td>选中所有不包含 <code>box</code> 类的 <code>div</code> 元素</td> <td>排除特定元素的通用样式</td></tr> <tr><td>目标伪类选择器</td> <td><code>#content:target</code></td> <td>选中当前 URL 锚点指向的 <code>#content</code> 元素</td> <td>锚点跳转后高亮目标内容</td></tr></tbody></table> <p><strong>代码示例（列表隔行变色）</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 选中 ul 下奇数索引的 li，设置背景色 */</span>
+
+<span class="token selector">ul li:nth-child(odd)</span> <span class="token punctuation">{</span>
+
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #f5f5f5<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_2-2-边框与圆角优化"><a href="#_2-2-边框与圆角优化" class="header-anchor">#</a> 2.2 边框与圆角优化</h3> <p>CSS3 新增了圆角、边框图片、阴影等特性，替代了传统的 “切图 + 嵌套标签” 实现方式，大幅提升开发效率。</p> <h4 id="_2-2-1-圆角-border-radius"><a href="#_2-2-1-圆角-border-radius" class="header-anchor">#</a> 2.2.1 圆角（border-radius）</h4> <p>用于实现元素的圆角效果，支持单独设置四个角的半径，也可统一设置。</p> <p><strong>语法</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 统一设置四个角的圆角半径（数值/百分比） */</span>
+
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 分别设置：上左、上右、下右、下左（顺时针） */</span>
+
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 5px 10px 15px 20px<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 圆形效果（宽高需一致） */</span>
+
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+
+
+<span class="token punctuation">}</span>
+
+</code></pre></div><p><strong>应用场景</strong>：按钮、头像、卡片等需要圆角的组件。</p> <h4 id="_2-2-2-边框阴影-box-shadow"><a href="#_2-2-2-边框阴影-box-shadow" class="header-anchor">#</a> 2.2.2 边框阴影（box-shadow）</h4> <p>为元素添加阴影效果，支持设置阴影的颜色、模糊度、偏移量、扩散范围等。</p> <p><strong>语法</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 水平偏移 垂直偏移 模糊度 扩散范围 颜色 （inset 可选，表内阴影）*/</span>
+
+    <span class="token property">box-shadow</span><span class="token punctuation">:</span> 2px 2px 8px 0 <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    &amp;#x20
+<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 内阴影示例 */</span>
+
+    <span class="token property">box-shadow</span><span class="token punctuation">:</span> inset 0 0 10px <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>应用场景</strong>：卡片悬浮效果、按钮高亮、模拟立体界面。</p> <h3 id="_2-3-背景样式增强"><a href="#_2-3-背景样式增强" class="header-anchor">#</a> 2.3 背景样式增强</h3> <p>CSS3 对背景的控制更灵活，支持多背景图片、背景尺寸调整、背景裁剪等功能。</p> <h4 id="_2-3-1-多背景图片-background-image"><a href="#_2-3-1-多背景图片-background-image" class="header-anchor">#</a> 2.3.1 多背景图片（background-image）</h4> <p>允许为一个元素设置多张背景图片，按顺序叠加显示（先写的图片在顶层）。</p> <p><strong>代码示例</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">div</span> <span class="token punctuation">{</span>
+
+    <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+
+    <span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 第一张背景图（顶层）：logo；第二张背景图（底层）：纹理 */</span>
+
+    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">&quot;logo.png&quot;</span><span class="token punctuation">)</span></span><span class="token punctuation">,</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">&quot;texture.jpg&quot;</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+
+    <span class="token property">background-position</span><span class="token punctuation">:</span> right bottom<span class="token punctuation">,</span> center<span class="token punctuation">;</span> <span class="token comment">/* 分别设置每张图的位置 */</span>
+
+    <span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">,</span> repeat<span class="token punctuation">;</span> <span class="token comment">/* 分别设置是否重复 */</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="_2-3-2-背景尺寸-background-size"><a href="#_2-3-2-背景尺寸-background-size" class="header-anchor">#</a> 2.3.2 背景尺寸（background-size）</h4> <p>控制背景图片的尺寸，替代传统的 “通过图片编辑调整尺寸” 的方式。</p> <p><strong>常用值</strong>：</p> <ul><li><p><code>cover</code>：图片等比例缩放，完全覆盖元素（可能部分图片被裁剪）；</p></li> <li><p><code>contain</code>：图片等比例缩放，完整显示在元素内（可能留有空白）；</p></li> <li><p>具体数值（如 <code>100px 80px</code>）：固定宽高（可能拉伸图片）。</p></li></ul> <p><strong>代码示例</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 背景图完全覆盖元素，保持比例 */</span>
+
+    <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="_2-4-文本样式升级"><a href="#_2-4-文本样式升级" class="header-anchor">#</a> 2.4 文本样式升级</h3> <p>CSS3 新增了文本阴影、文本溢出处理、文本换行等特性，优化文本的视觉呈现和排版。</p> <h4 id="_2-4-1-文本阴影-text-shadow"><a href="#_2-4-1-文本阴影-text-shadow" class="header-anchor">#</a> 2.4.1 文本阴影（text-shadow）</h4> <p>为文本添加阴影，语法与 <code>box-shadow</code> 类似，但无 “扩散范围” 和 “inset” 参数。</p> <p><strong>代码示例</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 水平偏移 垂直偏移 模糊度 颜色 */</span>
+
+    <span class="token property">text-shadow</span><span class="token punctuation">:</span> 1px 1px 3px <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/* 彩色阴影（如标题高亮） */</span>
+
+    <span class="token property">text-shadow</span><span class="token punctuation">:</span> 0 0 8px #ff0000<span class="token punctuation">,</span> 0 0 12px #00ff00<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="_2-4-2-文本溢出处理-text-overflow"><a href="#_2-4-2-文本溢出处理-text-overflow" class="header-anchor">#</a> 2.4.2 文本溢出处理（text-overflow）</h4> <p>当文本超出容器宽度时，控制显示效果（需配合 <code>white-space: nowrap</code> 和 <code>overflow: hidden</code> 使用）。</p> <p><strong>代码示例（单行文本省略）</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.ellipsis</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+    <span class="token comment">/* 禁止文本换行 */</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token comment">/* 隐藏超出部分 */</span>
+    <span class="token property">text-overflow</span><span class="token punctuation">:</span> ellipsis<span class="token punctuation">;</span>
+    <span class="token comment">/* 超出部分显示省略号 */</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>应用场景</strong>：列表标题、卡片描述等需要限制文本长度的场景。</p> <h3 id="_2-5-动画与过渡"><a href="#_2-5-动画与过渡" class="header-anchor">#</a> 2.5 动画与过渡</h3> <p>CSS3 的动画（<code>animation</code>）和过渡（<code>transition</code>）特性，可实现元素样式的动态变化，无需依赖 JavaScript。</p> <h4 id="_2-5-1-过渡-transition"><a href="#_2-5-1-过渡-transition" class="header-anchor">#</a> 2.5.1 过渡（transition）</h4> <p>用于 “元素状态变化时的平滑过渡”（如 hover 时的样式切换），需指定过渡的属性、时长和时间曲线。</p> <p><strong>语法</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 过渡属性 过渡时长 时间曲线（可选） 延迟时间（可选） */</span>
+
+<span class="token selector">div</span> <span class="token punctuation">{</span>
+    <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s ease<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>代码示例（按钮 hover 效果）</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.button</span> <span class="token punctuation">{</span>
+
+    <span class="token property">width</span><span class="token punctuation">:</span> 120px<span class="token punctuation">;</span>
+
+    <span class="token property">height</span><span class="token punctuation">:</span> 40px<span class="token punctuation">;</span>
+
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #4285f4<span class="token punctuation">;</span>
+
+    <span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+
+    <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 所有样式变化都平滑过渡，时长 0.3s */</span>
+
+    <span class="token property">transition</span><span class="token punctuation">:</span> all 0.3s ease<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token selector">.button:hover</span> <span class="token punctuation">{</span>
+
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #3367d6<span class="token punctuation">;</span>
+
+    <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>1.05<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">/* 轻微放大 */</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="_2-5-2-动画-animation"><a href="#_2-5-2-动画-animation" class="header-anchor">#</a> 2.5.2 动画（animation）</h4> <p>用于 “更复杂的动态效果”（如循环旋转、逐帧动画），需先定义 <code>@keyframes</code> 动画规则，再绑定到元素上。</p> <p><strong>代码示例（元素旋转动画）</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 1. 定义动画规则：从 0° 旋转到 360° */</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> rotate</span> <span class="token punctuation">{</span>
+
+    <span class="token selector">from</span> <span class="token punctuation">{</span>
+
+        <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>0deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token selector">to</span> <span class="token punctuation">{</span>
+
+        <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 2. 绑定动画到元素 */</span>
+
+<span class="token selector">.loading</span> <span class="token punctuation">{</span>
+
+    <span class="token property">width</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+
+    <span class="token property">height</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+
+    <span class="token property">border</span><span class="token punctuation">:</span> 5px solid #f3f3f3<span class="token punctuation">;</span>
+
+    <span class="token property">border-top</span><span class="token punctuation">:</span> 5px solid #4285f4<span class="token punctuation">;</span>
+
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 50%<span class="token punctuation">;</span>
+
+    <span class="token comment">/* 动画名称 时长 线性 无限循环 */</span>
+
+    <span class="token property">animation</span><span class="token punctuation">:</span> rotate 1s linear infinite<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>应用场景</strong>：加载动画、Banner 轮播、页面交互反馈。</p> <h3 id="_2-6-弹性盒模型-flexbox"><a href="#_2-6-弹性盒模型-flexbox" class="header-anchor">#</a> 2.6 弹性盒模型（Flexbox）</h3> <p>Flexbox 是 CSS3 新增的布局模型，用于快速实现元素的 “水平 / 垂直居中”“自适应排列”“空间分配” 等布局需求，解决了传统浮动布局的兼容性和复杂度问题。</p> <h4 id="核心概念"><a href="#核心概念" class="header-anchor">#</a> 核心概念：</h4> <ul><li><p><strong>容器（flex container）</strong>：设置 <code>display: flex</code> 的父元素；</p></li> <li><p><strong>项目（flex item）</strong>：容器内的子元素；</p></li> <li><p><strong>主轴（main axis）</strong>：项目排列的主要方向（默认水平，可通过 <code>flex-direction</code> 修改）；</p></li> <li><p><strong>交叉轴（cross axis）</strong>：与主轴垂直的方向。</p></li></ul> <h4 id="常用属性-容器"><a href="#常用属性-容器" class="header-anchor">#</a> 常用属性（容器）：</h4> <table><thead><tr><th>属性</th> <th>作用说明</th> <th>常用值</th></tr></thead> <tbody><tr><td><code>display: flex</code></td> <td>将元素设为 Flex 容器</td> <td>-</td></tr> <tr><td><code>justify-content</code></td> <td>控制项目在主轴上的对齐方式</td> <td><code>center</code>（居中）、<code>space-between</code>（两端对齐）</td></tr> <tr><td><code>align-items</code></td> <td>控制项目在交叉轴上的对齐方式</td> <td><code>center</code>（垂直居中）、<code>flex-start</code>（顶部对齐）</td></tr> <tr><td><code>flex-direction</code></td> <td>控制主轴方向</td> <td><code>row</code>（水平，默认）、<code>column</code>（垂直）</td></tr> <tr><td><code>flex-wrap</code></td> <td>控制项目是否换行</td> <td><code>wrap</code>（换行）、<code>nowrap</code>（不换行，默认）</td></tr></tbody></table> <p><strong>代码示例（水平垂直居中）</strong>：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 父容器：设置为 Flex 容器，主轴和交叉轴都居中 */</span>
+
+<span class="token selector">.parent</span> <span class="token punctuation">{</span>
+
+    <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+
+    <span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span>
+
+    <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #ccc<span class="token punctuation">;</span>
+
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> <span class="token comment">/* 主轴（水平）居中 */</span>
+
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> <span class="token comment">/* 交叉轴（垂直）居中 */</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 子项目：无需额外设置，自动居中 */</span>
+
+<span class="token selector">.child</span> <span class="token punctuation">{</span>
+
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+
+    <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #4285f4<span class="token punctuation">;</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="三、css3-兼容性处理"><a href="#三、css3-兼容性处理" class="header-anchor">#</a> 三、CSS3 兼容性处理</h2> <p>虽然主流浏览器（Chrome、Firefox、Safari、Edge）已全面支持 CSS3 核心特性，但部分旧浏览器（如 IE9 及以下）仍存在兼容性问题。常用解决方案如下：</p> <ol><li><p><strong>添加浏览器前缀</strong>：</p> <p>部分特性在早期浏览器中需添加前缀（如 <code>-webkit-</code> 用于 Chrome/Safari，<code>-moz-</code> 用于 Firefox），示例：</p></li></ol> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
+
+    <span class="token property">-webkit-border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span> <span class="token comment">/* Chrome/Safari 早期版本 */</span>
+
+    <span class="token property">-moz-border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span> <span class="token comment">/* Firefox 早期版本 */</span>
+
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span> <span class="token comment">/* 标准语法（放最后） */</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><p>实际开发中，可通过 PostCSS 等工具自动添加前缀，无需手动编写。</p> <ol><li><p><strong>渐进式增强</strong>：</p> <p>优先实现基础功能，再为支持 CSS3 的浏览器添加高级效果（如 “无圆角时显示直角，有圆角时显示圆角”），确保旧浏览器也能正常使用。</p></li> <li><p><strong>使用兼容性查询工具</strong>：</p> <p>通过 <a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">Can<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer"> I Use<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 查询 CSS3 特性在各浏览器中的支持情况，针对性处理兼容性问题。</p></li></ol> <h2 id="四、css3-实际应用场景总结"><a href="#四、css3-实际应用场景总结" class="header-anchor">#</a> 四、CSS3 实际应用场景总结</h2> <table><thead><tr><th>应用场景</th> <th>核心 CSS3 特性</th></tr></thead> <tbody><tr><td>按钮 / 卡片 / 头像样式</td> <td>border-radius、box-shadow、transition</td></tr> <tr><td>表单元素定制</td> <td>属性选择器、text-overflow</td></tr> <tr><td>页面布局（居中、自适应）</td> <td>Flexbox、background-size</td></tr> <tr><td>动态效果（加载、hover）</td> <td>animation、transition、transform</td></tr> <tr><td>文本美化（标题、描述）</td> <td>text-shadow、text-overflow</td></tr> <tr><td>背景与图片展示</td> <td>多背景图片、background-cover</td></tr></tbody></table> <h2 id="五、css3-进阶"><a href="#五、css3-进阶" class="header-anchor">#</a> 五、CSS3 进阶</h2> <ol><li>核心作用
+无需 JavaScript，即可为元素创建复杂、多关键帧的动态效果。</li> <li>基本语法</li></ol> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">demo</span> <span class="token punctuation">{</span>
+<span class="token comment">/* 1. 定义动画序列 */</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> 动画名称</span> <span class="token punctuation">{</span>
+<span class="token selector">0%</span> <span class="token punctuation">{</span> 初始样式<span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token comment">/* 或用from表示 */</span>
+<span class="token selector">50%</span> <span class="token punctuation">{</span> 中间样式<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token selector">100%</span> <span class="token punctuation">{</span> 结束样式<span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token comment">/* 或用to表示 */</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 2. 给元素应用动画 */</span>
+<span class="token selector">目标元素</span> <span class="token punctuation">{</span>
+<span class="token property">animation</span><span class="token punctuation">:</span> 动画名称 时长 时间函数 延迟时间 循环次数 播放方向<span class="token punctuation">;</span>
+<span class="token comment">/* 示例 */</span>
+<span class="token property">animation</span><span class="token punctuation">:</span> fadeIn 1.5s ease-in-out 0.3s infinite alternate<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="上面学完了都是基础-后面我会跟新css进阶和高级的一些用法-比如"><a href="#上面学完了都是基础-后面我会跟新css进阶和高级的一些用法-比如" class="header-anchor">#</a> 上面学完了都是基础，后面我会跟新css进阶和高级的一些用法，比如</h3> <ul><li>css3动画</li> <li>css3过渡</li> <li>css3布局</li> <li>css3滤镜</li> <li>css3媒体查询</li> <li>css3flex布局</li> <li>css3grid布局以及rem和vm</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.8d306f42.js" defer></script><script src="/assets/js/2.29b47fec.js" defer></script><script src="/assets/js/1.82de6389.js" defer></script><script src="/assets/js/32.d7c440a8.js" defer></script>
+  </body>
+</html>
