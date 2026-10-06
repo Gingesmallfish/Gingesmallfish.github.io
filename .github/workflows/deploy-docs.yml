@@ -18,13 +18,13 @@ jobs:
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 11.1.3        # ✅ 修改：与本地版本保持一致，避免 packages 字段报错
 
       - name: 设置 Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 20
-          # cache: pnpm 这一行直接删除！
+          cache: pnpm            # ✅ 恢复缓存，加速 CI（pnpm 已在上一步装好）
 
       - name: 安装依赖
         run: pnpm install
