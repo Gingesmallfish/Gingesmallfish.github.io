@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2022",
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "vuepress-theme-hope/dist/client/blog": ["node_modules/vuepress-theme-hope/dist/client/blog.d.ts"],
+      "@theme-hope/*": ["node_modules/vuepress-theme-hope/dist/client/*"]
+    }
+  },
+  "include": [
+    "src/.vuepress/**/*.ts",
+    "src/.vuepress/**/*.d.ts",
+    "src/.vuepress/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
