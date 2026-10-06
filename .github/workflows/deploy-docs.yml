@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -21,10 +21,10 @@ jobs:
           version: 9
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          # 删掉 cache: pnpm 这一行！就是它引发报错
+          cache: pnpm
 
       - name: 安装依赖
         run: pnpm install
@@ -34,10 +34,10 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
         run: |
           pnpm run docs:build
-          touch docs/.vuepress/dist/.nojekyll
+          touch src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: docs/.vuepress/dist
+          folder: src/.vuepress/dist
