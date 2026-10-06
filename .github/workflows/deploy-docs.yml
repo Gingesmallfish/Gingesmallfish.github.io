@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+  workflow_dispatch: # 支持手动触发
 permissions:
   contents: write
 jobs:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -21,9 +21,10 @@ jobs:
           version: 9
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 20
+          # cache: pnpm 这一行直接删除！
 
       - name: 安装依赖
         run: pnpm install
@@ -33,10 +34,10 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
         run: |
           pnpm run docs:build
-          touch src/.vuepress/dist/.nojekyll
+          touch docs/.vuepress/dist/.nojekyll
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: src/.vuepress/dist
+          folder: docs/.vuepress/dist
