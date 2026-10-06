@@ -17,5 +17,10 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+   "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher"
+    ]
+  }
 }
