@@ -1,5 +1,6 @@
 {
   "name": "vuepress-theme-hope-template",
+  "packageManager": "pnpm@9.15.0",
   "description": "A project of vuepress-theme-hope",
   "version": "2.0.0",
   "license": "MIT",
@@ -18,5 +19,15 @@
     "vue": "^3.5.42",
     "vuepress": "2.0.0-rc.31",
     "vuepress-theme-hope": "2.0.0-rc.109"
+  },
+  "dependencies": {
+    "@parcel/watcher": "2.6.0"
+  },
+   "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }
