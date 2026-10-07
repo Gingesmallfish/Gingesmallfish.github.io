@@ -7,7 +7,7 @@ category:
 tag:
   - Vue
   - 前端框架
-# cover: /assets/video/2.mp4
+cover: /assets/video/2.mp4
 date: 2026-10-04
 ---
 
