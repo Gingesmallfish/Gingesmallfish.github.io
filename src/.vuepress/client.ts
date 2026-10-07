@@ -1,11 +1,13 @@
 import { defineClientConfig } from "vuepress/client";
+import { Docsearch } from "@vuepress/plugin-docsearch/client";
 
-// 自定义布局 BlogWithVideo
 import BlogWithVideo from "./layouts/BlogWithVideo.vue";
 
-// import your custom styles here
 export default defineClientConfig({
   layouts: {
     BlogWithVideo,
+  },
+  enhance({ app }) {
+    app.component("SearchBox", Docsearch);
   },
 });

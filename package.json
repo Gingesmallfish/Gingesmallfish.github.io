@@ -26,5 +26,8 @@
       "esbuild",
       "vue-demi"
     ]
+  },
+  "dependencies": {
+    "@vuepress/plugin-docsearch": "2.0.0-rc.31"
   }
 }

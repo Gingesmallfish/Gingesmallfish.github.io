@@ -5,15 +5,16 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   // 自定义域名
-  hostname: "https://your-blog-domain.com",
+  hostname: "https://gingesmallfish.github.io",
 
   author: {
     name: "姜小鱼",
-    url: "https://github.com/用户名",
+    url: "https://github.com/Gingesmallfish",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
+  // 长裤配置
   repo: "你的用户名/你的仓库名",
 
   docsDir: "src",
@@ -34,11 +35,11 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一句话介绍自己",
+    description: "姜小鱼的博客 - 我很懒，所以没有写简介",
     intro: "/about/homepage.html",
     timeline: "时间轴",
     medias: {
-      GitHub: "https://github.com/你的用户名",
+      GitHub: "https://github.com/Gingesmallfish",
       Email: "1847535232@qq.com",
     },
   },
@@ -49,7 +50,7 @@ export default hopeTheme({
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
+  hotReload: true,
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
@@ -129,6 +130,14 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+
+    docsearch: {
+      appId: "PAXT7KU86W",
+      apiKey: "2447233fd15fec98c4aaaf08a0e52d7e",
+      indexName: "gingesmallfish_pages",
+
+      placeholder: "搜索笔记...",
+    },
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
