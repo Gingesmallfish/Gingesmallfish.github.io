@@ -3,9 +3,11 @@ home: true
 layout: BlogWithVideo
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage:
 heroText: 我的技术博客
-heroFullScreen: true
+# heroFullScreen
+
+bgImage: /assets/images/home.jpg
 tagline: 记录成长，分享知识
 projects:
   - icon: folder-open
@@ -33,5 +35,3 @@ projects:
     star: true
 footer: © 2026 我的博客
 ---
-
-这是我的技术博客，欢迎交流。
