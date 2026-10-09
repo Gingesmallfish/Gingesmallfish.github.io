@@ -1,3 +1,11 @@
 // you can change config here
-$theme-color: #096dd9;
-
+// 主题色列表：第一个为默认主色，给出多个颜色后导航栏会出现「主题色 + 外观」切换面板
+$theme-color: (
+  #096dd9,
+  // 蓝（默认）
+  #3eaf7c,
+  // 绿
+  #f26d6d,
+  // 红
+  #fb9b5f // 橙
+);

@@ -15,11 +15,24 @@ export default defineUserConfig({
   ],
 
   lang: "zh-CN",
-  title: "极客笔记",
-  description: "vuepress-theme-hope 的极客笔记",
+
+  // 多语言配置："/" 为中文，"/en/" 为英文
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "Jiang's Blog",
+      description: "vuepress-theme-hope 的极客笔记",
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "Jiang's Blog",
+      description: "Geek notes powered by vuepress-theme-hope",
+    },
+  },
 
   theme,
 
+  // 使用 vite 作为打包工具
   bundler: viteBundler({
     viteOptions: {
       resolve: {

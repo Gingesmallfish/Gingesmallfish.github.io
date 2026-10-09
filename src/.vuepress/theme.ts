@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { navbarZh, navbarEn } from "./navbar.js";
+import { sidebarZh, sidebarEn } from "./sidebar.js";
 
 export default hopeTheme({
   // 自定义域名
@@ -12,41 +12,59 @@ export default hopeTheme({
     url: "https://github.com/Gingesmallfish",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   // 长裤配置
-  repo: "你的用户名/你的仓库名",
+  repo: "git@github.com:Gingesmallfish/gingesmallfish.github.io.git",
 
   docsDir: "src",
 
-  // 导航栏
-  navbar,
-
-  // 侧边栏
-  sidebar,
-
   // 页脚
-  footer: "© 2026 姜小鱼",
   displayFooter: true,
 
   // 显示最后更新时间
   lastUpdated: true,
   contributors: true,
 
-  // 博客相关
+  // 博客相关（各语言共享）
   blog: {
-    description: "姜小鱼的博客 - 我很懒，所以没有写简介",
     intro: "/about/homepage.html",
-    timeline: "时间轴",
     medias: {
       GitHub: "https://github.com/Gingesmallfish",
       Email: "1847535232@qq.com",
     },
   },
 
-  // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+  // 多语言配置：导航栏、侧边栏、博客文案按语言区分
+  locales: {
+    "/": {
+      navbar: navbarZh,
+      sidebar: sidebarZh,
+      footer: "© 2026 姜小鱼",
+
+      blog: {
+        description: "姜小鱼的博客 - 我很懒，所以没有写简介",
+        timeline: "时间轴",
+      },
+
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
+
+    "/en/": {
+      navbar: navbarEn,
+      sidebar: sidebarEn,
+      footer: "© 2026 Jiang",
+
+      blog: {
+        timeline: "Timeline",
+      },
+
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    },
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
@@ -98,9 +116,9 @@ export default hopeTheme({
     // },
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
+    revealjs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+    },
 
     // 在启用之前安装 chart.js
     // chartjs: true,
@@ -144,11 +162,12 @@ export default hopeTheme({
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+      provider: "Waline",
+      serverURL: "https://waline-comment.vuejs.press",
+    },
 
+    // 启用之前需安装 @vuepress/plugin-comment2
     components: {
       components: ["Badge", "VPCard"],
     },

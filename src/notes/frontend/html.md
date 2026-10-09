@@ -2,7 +2,7 @@
 title: HTML
 icon: code
 category:
-  - 前端
+    - 前端基础
 tag:
   - HTML
   - 前端基础
@@ -51,15 +51,15 @@ date: 2026-10-07
 #### 1.3.1 文本标签
 
 
-| 标签 | 作用 | 示例代码 |
-| --- | --- | --- |
-| `<h1>`-`<h6>` | 标题（h1 最大，h6 最小） | `<h2>二级标题</h2>` |
-| `<p>` | 段落 | `<p>这是一个段落。</p>` |
-| `<br>` | 换行（单标签） | `第一行<br>第二行` |
-| `<hr>` | 水平线（单标签） | `<hr>` |
-| `<strong>` | 加粗（强调语义） | `<strong>重要内容</strong>` |
-| `<em>` | 斜体（强调语义） | `<em>强调内容</em>` |
-| `<del>` | 删除线 | `<del>过时内容</del>` |
+| 标签          | 作用                     | 示例代码                    |
+|---------------|--------------------------|-----------------------------|
+| `<h1>`-`<h6>` | 标题（h1 最大，h6 最小） | `<h2>二级标题</h2>`         |
+| `<p>`         | 段落                     | `<p>这是一个段落。</p>`     |
+| `<br>`        | 换行（单标签）           | `第一行<br>第二行`          |
+| `<hr>`        | 水平线（单标签）         | `<hr>`                      |
+| `<strong>`    | 加粗（强调语义）         | `<strong>重要内容</strong>` |
+| `<em>`        | 斜体（强调语义）         | `<em>强调内容</em>`         |
+| `<del>`       | 删除线                   | `<del>过时内容</del>`       |
 
 #### 1.3.2 链接与图像
 
@@ -188,16 +188,16 @@ date: 2026-10-07
 
 #### 2.3.1 常见表单控件
 
-| 控件类型 | 标签 / 属性 | 示例代码 |
-| --- | --- | --- |
-| 文本输入框 | `<input type="text">` | `<input type="text" name="username" placeholder="请输入用户名">` |
-| 密码输入框 | `<input type="password">` | `<input type="password" name="password" placeholder="请输入密码">` |
-| 单选按钮 | `<input type="radio">` | `<input type="radio" name="gender" value="male"> 男` |
-| 复选框 | `<input type="checkbox">` | `<input type="checkbox" name="hobby" value="reading"> 阅读` |
-| 提交按钮 | `<input type="submit">` | `<input type="submit" value="登录">` |
-| 重置按钮 | `<input type="reset">` | `<input type="reset" value="重置">` |
-| 下拉列表 | `<select>`+`<option>` | `<select name="city"><option value="bj">北京</option></select>` |
-| 文本域（多行） | `<textarea>` | `<textarea name="intro" rows="5" cols="30">个人简介</textarea>` |
+| 控件类型       | 标签 / 属性               | 示例代码                                                           |
+|----------------|---------------------------|--------------------------------------------------------------------|
+| 文本输入框     | `<input type="text">`     | `<input type="text" name="username" placeholder="请输入用户名">`   |
+| 密码输入框     | `<input type="password">` | `<input type="password" name="password" placeholder="请输入密码">` |
+| 单选按钮       | `<input type="radio">`    | `<input type="radio" name="gender" value="male"> 男`               |
+| 复选框         | `<input type="checkbox">` | `<input type="checkbox" name="hobby" value="reading"> 阅读`        |
+| 提交按钮       | `<input type="submit">`   | `<input type="submit" value="登录">`                               |
+| 重置按钮       | `<input type="reset">`    | `<input type="reset" value="重置">`                                |
+| 下拉列表       | `<select>`+`<option>`     | `<select name="city"><option value="bj">北京</option></select>`    |
+| 文本域（多行） | `<textarea>`              | `<textarea name="intro" rows="5" cols="30">个人简介</textarea>`    |
 
 #### 2.3.2 完整表单示例
 
@@ -232,15 +232,15 @@ HTML5 是 HTML 的第五个版本，新增了**语义化标签、新表单类型
 
 传统 HTML 用大量 `<div>` 划分结构，语义模糊；HTML5 新增以下标签，让结构更清晰：
 
-| 标签 | 作用 | 适用场景 |
-| --- | --- | --- |
-| `<header>` | 页面 / 区块的头部（页眉） | 网站标题、导航栏 |
-| `<nav>` | 导航链接区域 | 主导航、侧边栏导航 |
-| `<section>` | 独立的内容区块 | 文章章节、产品列表 |
-| `<article>` | 独立的可复用内容 | 博客文章、新闻报道 |
-| `<aside>` | 辅助内容区域（侧边栏） | 相关推荐、作者信息 |
-| `<footer>` | 页面 / 区块的底部（页脚） | 版权信息、联系方式 |
-| `<main>` | 页面的主要内容（唯一） | 排除导航、侧边栏等辅助内容 |
+| 标签        | 作用                      |          适用场景          |
+|-------------|---------------------------|:--------------------------:|
+| `<header>`  | 页面 / 区块的头部（页眉） |      网站标题、导航栏      |
+| `<nav>`     | 导航链接区域              |     主导航、侧边栏导航     |
+| `<section>` | 独立的内容区块            |     文章章节、产品列表     |
+| `<article>` | 独立的可复用内容          |     博客文章、新闻报道     |
+| `<aside>`   | 辅助内容区域（侧边栏）    |     相关推荐、作者信息     |
+| `<footer>`  | 页面 / 区块的底部（页脚） |     版权信息、联系方式     |
+| `<main>`    | 页面的主要内容（唯一）    | 排除导航、侧边栏等辅助内容 |
 
 #### 3.1.1 语义化页面结构示例
 
@@ -299,14 +299,14 @@ HTML5 是 HTML 的第五个版本，新增了**语义化标签、新表单类型
 
 HTML5 新增了多种表单类型，减少 JavaScript 验证成本：
 
-| 类型 | 作用 | 示例代码 |
-| --- | --- | --- |
-| `email` | 邮箱输入（自动验证格式） | `<input type="email" name="email">` |
-| `url` | 网址输入（自动验证格式） | `<input type="url" name="website">` |
-| `number` | 数字输入（限制数字范围） | `<input type="number" min="0" max="100" step="5">` |
-| `date` | 日期选择器（无需插件） | `<input type="date" name="birthday">` |
-| `time` | 时间选择器 | `<input type="time" name="meeting">` |
-| `search` | 搜索框（自带清除按钮） | `<input type="search" name="keyword" placeholder="搜索...">` |
+| 类型     | 作用                     | 示例代码                                                     |
+|----------|--------------------------|--------------------------------------------------------------|
+| `email`  | 邮箱输入（自动验证格式） | `<input type="email" name="email">`                          |
+| `url`    | 网址输入（自动验证格式） | `<input type="url" name="website">`                          |
+| `number` | 数字输入（限制数字范围） | `<input type="number" min="0" max="100" step="5">`           |
+| `date`   | 日期选择器（无需插件）   | `<input type="date" name="birthday">`                        |
+| `time`   | 时间选择器               | `<input type="time" name="meeting">`                         |
+| `search` | 搜索框（自带清除按钮）   | `<input type="search" name="keyword" placeholder="搜索...">` |
 
 #### 3.2.1 新表单属性
 

@@ -29,6 +29,13 @@
   },
   "dependencies": {
     "@vuepress/plugin-docsearch": "2.0.0-rc.31",
+    "@vuepress/plugin-revealjs": "2.0.0-rc.47",
+    "@waline/client": "^3.16.0",
     "vue-router": "^5.4.0"
+  },
+  "properties": {
+    "SomeNumberProperty": {
+      "type": "number"
+    }
   }
 }
