@@ -6,11 +6,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只保留一次部署，避免旧任务覆盖新部署
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   docs:
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: 检出代码
@@ -33,10 +44,17 @@ jobs:
       - name: 构建 VuePress 站点
         run: pnpm docs:build
 
-      - name: 部署到 GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: 添加 .nojekyll（跳过 Jekyll 处理）
+        run: touch src/.vuepress/dist/.nojekyll
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传站点产物
+        uses: actions/upload-pages-artifact@v3
         with:
-          target_branch: gh-pages
-          build_dir: src/.vuepress/dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: src/.vuepress/dist
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
